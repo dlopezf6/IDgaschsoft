@@ -2,6 +2,12 @@
   "name": "idprojectgaschsoft",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
+  "scripts": {
+    "starts": "node ./src/index",
+    "start:dev": "nodemon ./src/index",
+    "test": "echo \"Error: no test sepecified\" && exit 1"
+  }
   "dependencies": {
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
@@ -9,6 +15,7 @@
     "ace-builds": "^1.36.2",
     "axios": "^1.7.7",
     "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
     "jsdom": "^25.0.1",
     "mssql": "^11.0.1",
     "multer": "^1.4.5-lts.1",
