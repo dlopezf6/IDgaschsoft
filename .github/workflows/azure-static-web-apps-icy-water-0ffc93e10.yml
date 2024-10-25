@@ -30,7 +30,7 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "idprojectgaschsoft" # Ruta correcta de tu frontend React
           api_location: "" # Api source code path - optional
-          output_location: "idprojectgaschsoft/build" # Directorio donde se genera la build
+          output_location: "build" # Directorio donde se genera la build (solo "build", ya que está dentro de "idprojectgaschsoft")
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
