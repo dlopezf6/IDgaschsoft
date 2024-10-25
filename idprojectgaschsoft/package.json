@@ -2,12 +2,6 @@
   "name": "idprojectgaschsoft",
   "version": "0.1.0",
   "private": true,
-  "main": "index.js",
-  "scripts": {
-    "starts": "node ./src/index",
-    "start:dev": "nodemon ./src/index",
-    "test": "echo \"Error: no test sepecified\" && exit 1"
-  }
   "dependencies": {
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
